@@ -11,7 +11,7 @@
 
 # Vivaldi
 ## Common
-- Setting
+- Settings
     - Appearence
         - Top -- Disable "Usa Animation"
         - Background Image Options/ -- Disable "Blend Window Accent Color with Image"
@@ -19,9 +19,11 @@
     - Tab
         - New Tab Page/Start Page/ -- Enable "Controlled by Extension"  
         - Tab Cycling/ -- Select "Cycle in Tab Order"
+    - Search
+        - Search Engines/ -- Select "Set as Default Search" in panel of prefering search engine
 
 ## Speedup
-- Setting
+- Settings
     - Appearence
         - Top -- Disable "Usa Animation"
         - Background Image Options/ -- Disable "Blend Window Accent Color with Image"
