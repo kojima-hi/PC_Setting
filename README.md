@@ -1,3 +1,3 @@
 # What is this?
-Note about settings of personal computers.
+Note about settings of systems on personal computers.
 
