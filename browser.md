@@ -11,12 +11,27 @@
 
 # Vivaldi
 ## Common
-- Startup
-    - General/Startup with/ -- Select "Specific Pages"
-- Tab
-    - Tabs/New Tab Page/Start Page/ -- Enable "Controlled by Extension"  
-    - Tabs/Tab Cycling/ -- Select "Cycle in Tab Order"
+- Setting
+    - Appearence
+        - Top -- Disable "Usa Animation"
+        - Background Image Options/ -- Disable "Blend Window Accent Color with Image"
+        - Background Window Behavior/ -- Disable "Fade Foreground Colors"
+    - Tab
+        - New Tab Page/Start Page/ -- Enable "Controlled by Extension"  
+        - Tab Cycling/ -- Select "Cycle in Tab Order"
 
 ## Speedup
+- Setting
+    - Appearence
+        - Top -- Disable "Usa Animation"
+        - Background Image Options/ -- Disable "Blend Window Accent Color with Image"
+        - Background Window Behavior/ -- Disable "Fade Foreground Colors"
+    - Tab
+        - New Tab Page/Start Page/ -- Enable "Controlled by Extension"  
+        - Tab Options/ -- Disable all
+        - Tab Cycling/ -- Select "Cycle in Tab Order"
+    - Mouse
+        - Gestures/ -- Disable "Allow Gestures"
+        - Rocker Gestures/ -- Disable "Allow Rocker Gestures"
 
 
