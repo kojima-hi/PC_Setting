@@ -12,9 +12,11 @@
 # Vivaldi
 ## Common
 - Startup
-    - "General" > "Startup with" > "Specific Pages"
+    - General/Startup with/ -- Select "Specific Pages"
 - Tab
-    - "Tabs" > "New Tab Page" > "Start Page" > "Controlled by Extension"  
-    - "Tabs" > "Tab Cycling" > "Cycle in Tab Order"
+    - Tabs/New Tab Page/Start Page/ -- Enable "Controlled by Extension"  
+    - Tabs/Tab Cycling/ -- Select "Cycle in Tab Order"
+
+## Speedup
 
 
