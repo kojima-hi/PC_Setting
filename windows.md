@@ -32,63 +32,56 @@ Get Ubuntu from Store, then installation is automatically started.
 ## Setup
 ### bashrc
 ```
-  # representation
-  PS1='\u@\h \W $ ' # shell prompt 
+    # representation
+    PS1='\u@\h \W $ ' # shell prompt 
 ```
 ### Basic
 #### Change home directory path on Windows
 You can use directory structure on Windows as `/mnt/<drive letter>/xxx`
 ```
-  $ sudo vi aaa
+    $ sudo vi /etc/passwd
 
-  Change from
-    uname:x:1000:1000::/home/uname:/bin/bash
-  to
-    uname:x:1000:1000::/mnt/d/xxx:/bin/bash
+    Change from
+        uname:x:1000:1000::/home/uname:/bin/bash
+    to
+        uname:x:1000:1000::/mnt/d/xxx:/bin/bash
 ```
 
 #### To be permission switchable
 Cerate `/etc/wsl.conf` and write the following to it:
 ```
-  [automount]
-  enabled = true
-  options = "metadata"
-  mountFsTab = false
+    [automount]
+    enabled = true
+    options = "metadata"
+    mountFsTab = false
 ```
 
 ### Functions
 #### Update
 ```
-  $ sudo apt update
-  $ sudo apt upgrade
+    $ sudo apt update
+    $ sudo apt upgrade
 ```
 
 #### Programs
 ```
-  $ sudo apt install build-essential
+    $ sudo apt install build-essential
+    $ sudo apt install software-properties-common python3-dev python3-pip python-pip
 
-  $ sudo apt install python-pip
-  $ sudo apt install python3-pip
+    For Neovim
+    $ sudo add-apt-repository ppa:neovim-ppa/stable
+    $ sudo apt update
+    $ sudo apt-get install neovim
 
-  For Neovim
-  $ sudo apt install unzip
-  $ sudo apt install pkg-config
-  $ sudo apt install cmake
-  $ sudo apt install lua5.3
-  $ sudo apt install libtool
-  $ sudo apt install libtool-bin
-  $ sudo apt install automake
-  $ sudo apt install gettext
-
-  $ sudo apt install tmux
-  Usage:
-    init
-      $ tmux
-    divide panel
-      C-b "
-      C-b %
-    move panel
-      C-b <arrow>
+    $ sudo apt install tmux
+    Usage:
+        init
+            $ tmux
+        divide panel
+            C-b "
+            C-b %
+        move panel
+            C-b <arrow>
 ```
 
 
