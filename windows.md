@@ -21,6 +21,7 @@ Enable dark mode:
 1. Install "AutoHotkey"
 1. Make file "xxx.ahk" and double click it.
 1. Register AutoHotkey to startup
+(How to write script: https://sites.google.com/site/autohotkeyjp/reference/KeyList)
 
 ## Programs
 Visual Studio Code: Editor having dark background  
