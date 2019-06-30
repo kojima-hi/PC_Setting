@@ -6,13 +6,21 @@ Note about settings of Windows 10 and installation&setup of Ubuntu LTS 18.04 as 
 Enable dark mode:  
 `"Settings" > "Personalization" > "Color" > Choose "Dark" in "Choose your default app mode" section`
 
-## Function
-Add tabs in file explorer:  
+## Register to startup
+`Push "Win+R" > type "shell:startup" (window is open) > Drop program shortcuts to the window`
+
+## Programs for function
+- Add tabs in file explorer:  
 1. Install "QTTabBar"
 1. Activation
     1. Open explorer
     1. "View" > Click on bottom panel of "Option" > Click on "QTTabBar"
     1. "View" > Click on bottom panel of "Option" > "Change folder and search options" > "View" tab > Click on "Apply to Folders"
+
+- Custom keys
+1. Install "AutoHotkey"
+1. Make file "xxx.ahk" and double click it.
+1. Register AutoHotkey to startup
 
 ## Programs
 Visual Studio Code: Editor having dark background  
