@@ -14,6 +14,7 @@
   tool = vimdiff
 ```
 - Register publick key to account of GitHub
+
 `Log in > go to https://github.com/settings/keys > register the key`
 
 - Configurate SSH connection: write the following in ~/.ssh/config
@@ -28,7 +29,7 @@ Host github git
 ```
     $ git clone git:user-name/repository-name
 ```
-If you get a repository through HTTP connection, user-name and password is required when you push revision to GitHub.
+If you get a repository through HTTP connection, user-name and password are required when you push revise to GitHub.
 
 ## Python
 ```
