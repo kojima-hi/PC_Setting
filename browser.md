@@ -9,6 +9,30 @@
 - Vimium
 - その本、図書館にあります
 
+## Settings
+- Vimium
+```
+# unmap
+unmap /
+unmap ?
+# map
+map h scrollLeft
+map l scrollRight
+map p goBack
+map n goForward
+map H previousTab
+map L nextTab
+map I LinkHints.activateMode
+map i LinkHints.activateModeToOpenInNewTab
+map w removeTab
+map d scrollPageDown
+map e scrollPageUp
+map D scrollFullPageDown
+map E scrollFullPageUp
+map <c-w> removeTab
+map <c-p> togglePinTab
+```
+
 # Vivaldi
 ## Common
 - Settings
