@@ -1,7 +1,7 @@
 # Service
 ## GitHub
-1. Initial setting
-- Write the following in ~/.gitconfig
+- Initial setting
+    - Write the following in ~/.gitconfig
 ```
 [user]
   name = <User name>
@@ -13,10 +13,10 @@
 [diff]
   tool = vimdiff
 ```
-- Register publick key to account of GitHub
+    - Register publick key to account of GitHub
 `Log in > go to https://github.com/settings/keys > register the key`
 
-- Configurate SSH connection: write the following in ~/.ssh/config
+    - Configurate SSH connection: write the following in ~/.ssh/config
 ```
 Host github git
     User git
@@ -24,7 +24,7 @@ Host github git
     IdentityFile ~/.ssh/id_rsa
 ```
 
-1. Get repository from GitHub
+- Get repository from GitHub
 ```
     $ git clone git:user-name/repository-name
 ```
