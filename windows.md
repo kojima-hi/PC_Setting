@@ -27,6 +27,14 @@ Enable dark mode:
 ## Programs
 Visual Studio Code: Editor having dark background  
 
+## How to
+### Screen shot of specific area
+`Win + Shift + s`
+
+## PowerShell
+### Set alias
+Setting file is shown by `echo $profile`
+
 # Ubuntu as subsystem of Windows 10
 ## Install
 ### Activation
