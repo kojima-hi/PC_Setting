@@ -26,7 +26,7 @@ Organize apps.
 - Reinstall OS
 
 ### MS Office
-License.
+License. If reinstall is needed, remove only .app files in Library.
 
 ### Others
 - Time Machine setting is inherited.
