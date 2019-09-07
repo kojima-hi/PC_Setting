@@ -17,3 +17,6 @@ Use Sync or addon `Export links of all extensions`.
 ### Google Drive
 Resynchronize everything(?)
 
+### Launchpad
+Organize apps.
+
