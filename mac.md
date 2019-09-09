@@ -3,6 +3,7 @@
 ## Programs
 ```
   $ brew cask reinstall mactex # contains TeX Live
+    # combination of brew management and independent installation of TeX Live may result in error.
 ```
 
 ## Partiiton
