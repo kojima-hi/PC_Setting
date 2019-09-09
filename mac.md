@@ -28,7 +28,7 @@ Organize apps.
   - Select `Internal - Machintosh HD` and click `Erase` and click `Erase`
 - Reinstall OS
   - Select `Reinstall macOS` on pannel `macOS Utilities`
-  - Follow the guidance
+  - Follow the one-way guidance
 
 ### MS Office
 License. If reinstall is needed, remove only .app files in Library.
