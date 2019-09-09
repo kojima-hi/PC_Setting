@@ -39,4 +39,4 @@ Organize apps.
 License. If reinstall is needed, remove only .app files in Library.
 
 ### Others
-- Reset Time Machine setting. ( Setting is inherited but it works wrong. )
+- Reset Time Machine setting. ( The setting is inherited but it works wrong. )
