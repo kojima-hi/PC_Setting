@@ -1,5 +1,10 @@
 # MAC
 
+## Partiiton
+### Clean volume
+- Open `/Applications/Utilities/Disk Utility.app`
+- Choice target volume and click `Erase`
+
 ## Migration
 ### How to migrate
 You can migrate data between Macs easily. Follow the guidance in your initial setup. (MBP) Use a USB-C cable to connect the PCs, though not a charging USB-C calbe that comes with MBP.
