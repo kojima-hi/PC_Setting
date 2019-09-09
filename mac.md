@@ -23,8 +23,12 @@ Organize apps.
 ### Initialize Mac
 - Sign out App Store, iTunes, iCloud, iMessage
 - Delete data on disc
-  - a
+  - Restart Mac with pusshing `Command+r`
+  - Select `Dist Utility` on pannel `macOS Utilities`
+  - Select `Internal - Machintosh HD` and click `Erase` and click `Erase`
 - Reinstall OS
+  - Select `Reinstall macOS` on pannel `macOS Utilities`
+  - Follow the guidance
 
 ### MS Office
 License. If reinstall is needed, remove only .app files in Library.
