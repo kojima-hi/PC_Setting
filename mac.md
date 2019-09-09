@@ -1,5 +1,10 @@
 # MAC
 
+## Programs
+```
+  $ brew cask reinstall mactex # contains TeX Live
+```
+
 ## Partiiton
 ### Clean volume
 1. Open `/Applications/Utilities/Disk Utility.app`
