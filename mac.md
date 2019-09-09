@@ -23,6 +23,7 @@ Organize apps.
 ### Initialize Mac
 - Sign out App Store, iTunes, iCloud, iMessage
 - Delete data on disc
+  - a
 - Reinstall OS
 
 ### MS Office
