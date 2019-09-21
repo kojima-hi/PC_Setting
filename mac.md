@@ -1,10 +1,14 @@
 # MAC
 
 ## Programs
+### Tex
 ```
   $ brew cask reinstall mactex # contains TeX Live
     # combination of brew management and independent installation of TeX Live may result in error.
 ```
+
+### MS Office
+You must log in to any account to enable usage history.
 
 ## Partiiton
 ### Clean volume
