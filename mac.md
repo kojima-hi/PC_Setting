@@ -17,7 +17,7 @@
 ```
 
 ### MS Office
-(For Excell) You must log in to any account to enable usage history.
+(For Excel) You must log in to any account to enable usage history.
 
 ## Partiiton
 ### Clean volume
