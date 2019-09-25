@@ -8,7 +8,7 @@
     # combination of brew management and independent installation of TeX Live may result in error.
 ```
 
-- Manage packages
+- Add packages
 ```
   $ kpsewhich listing.sty # find directory containing a package
   <sty_dir>/listing.sty
