@@ -2,9 +2,18 @@
 
 ## Programs
 ### Tex
+- Install
 ```
   $ brew cask reinstall mactex # contains TeX Live
     # combination of brew management and independent installation of TeX Live may result in error.
+```
+
+- Manage packages
+```
+  $ kpsewhich listing.sty # find directory containing a package
+  <sty_dir>/listing.sty
+  $ sudo cp jlisting.sty <sty_dir> # copy new package to where Tex references
+  $ sudo mktexlsr # reflects settings
 ```
 
 ### MS Office
