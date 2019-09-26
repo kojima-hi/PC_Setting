@@ -28,7 +28,7 @@
 - Shortcut(PPT)
     - Increase the font size: `Cmd Shift >`
     - Decrease the font size: `Cmd Shift <`
-    - Open the font window: Cmd t
+    - Open the font window: `Cmd t`
 
 
 ## Partiiton
