@@ -25,6 +25,12 @@
         - An example of the file is found on https://researchmap.jp/jox7s44se-52108/
     - How to read the theme: `View - Slide Master - Fonts - choose Your Theme`
 
+- Shortcut(PPT)
+    - Increase the font size: `Cmd Shift >`
+    - Decrease the font size: `Cmd Shift <`
+    - Open the font window: Cmd t
+
+
 ## Partiiton
 ### Clean volume
 1. Open `/Applications/Utilities/Disk Utility.app`
