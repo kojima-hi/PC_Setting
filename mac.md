@@ -17,7 +17,12 @@
 ```
 
 ### MS Office
+- History
 (For Excel) You must log in to any account to enable usage history.
+
+- Theme
+    - Put a theme file in `~/Library/Group Containers/UBF8T346G9.Office/User Content.localized/Themes.localized/Theme Fonts`
+    - How to read: `View - Slide Master - Fonts - choose Your Theme`
 
 ## Partiiton
 ### Clean volume
