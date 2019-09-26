@@ -20,10 +20,10 @@
 - History
 (For Excel) You must log in to any account to enable usage history.
 
-- Theme
+- Font theme
     - Put a theme file in `~/Library/Group Containers/UBF8T346G9.Office/User Content.localized/Themes.localized/Theme Fonts`
-        - Example of the format of the file is found on https://researchmap.jp/jox7s44se-52108/
-    - How to read: `View - Slide Master - Fonts - choose Your Theme`
+        - An example of the file is found on https://researchmap.jp/jox7s44se-52108/
+    - How to read the theme: `View - Slide Master - Fonts - choose Your Theme`
 
 ## Partiiton
 ### Clean volume
