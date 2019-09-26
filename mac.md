@@ -26,9 +26,9 @@
     - How to read the theme: `View - Slide Master - Fonts - choose Your Theme`
 
 - Shortcut(PPT)
-    - Increase the font size: `Cmd Shift >`
-    - Decrease the font size: `Cmd Shift <`
-    - Open the font window: `Cmd t`
+    - Increase the font size: `cmd sft >`
+    - Decrease the font size: `cmd sft <`
+    - Open the font window: `cmd t`
 
 
 ## Partiiton
