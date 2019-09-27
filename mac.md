@@ -31,7 +31,7 @@
     - Open the font window: `cmd t`
 
 | x | x |
-    -- | --
+   ---- | ----
 | Increase the font size | `cmd sft >` |
 | Decrease the font size | `cmd sft <` | 
 | Open the font window | `cmd t`       |
