@@ -30,10 +30,11 @@
     - Decrease the font size: `cmd sft <`
     - Open the font window: `cmd t`
 
-   ---- | ----
-| Increase the font size | `cmd sft >` |
-| Decrease the font size | `cmd sft <` | 
-| Open the font window | `cmd t`       |
+| Result | Key type |
+   :--- | :---:
+| Increase the font size | cmd sft > |
+| Decrease the font size | cmd sft < | 
+| Open the font window | cmd t       |
 
 
 ## Partiiton
