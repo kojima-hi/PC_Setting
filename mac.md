@@ -1,6 +1,20 @@
 # MAC
 
 ## Programs
+### Bash-completion
+- Install
+```
+    $ brew install bash-completion
+    $ vi ~/.bash_profile
+        add the following:
+            if [ -f $(brew --prefix)/etc/bash_completion ]; then
+                . $(brew --prefix)/etc/bash_completion
+            fi
+```
+
+- Make self-completion
+
+
 ### Tex
 - Install
 ```
@@ -34,14 +48,14 @@
 | Open the font window | cmd t      |
 
 
-## Partiiton
+## Partition
 ### Clean volume
 1. Open `/Applications/Utilities/Disk Utility.app`
 1. Choice target volume and click `Erase`
 
 ## Migration
 ### How to migrate
-You can migrate data between Macs easily. Follow the guidance in your initial setup. (MBP) Use a USB-C cable to connect the PCs, though not a charging USB-C calbe that comes with MBP.
+You can migrate data between Macs easily. Follow the guidance in your initial setup. (MBP) Use a USB-C cable to connect the PCs, though not a charging USB-C cable that comes with MBP.
 
 ### Needed manual settings
 #### System Preferences
@@ -51,7 +65,7 @@ Accessibility, Full Disk Access
 Login Items
 
 #### Google Chrome
-Use Sync or addon `Export links of all extensions`.
+Use Sync or add-on `Export links of all extensions`.
 
 #### Google Drive
 Resynchronize everything(?)
@@ -62,11 +76,11 @@ Organize apps.
 ### Initialize Mac
 1. Sign out App Store, iTunes, iCloud, iMessage
 1. Delete data on disc
-    1. Restart Mac with pusshing `Command+r`
-    1. Select `Dist Utility` on pannel `macOS Utilities`
+    1. Restart Mac with pushing `Command+r`
+    1. Select `Dist Utility` on panel `macOS Utilities`
     1. Select `Internal - Machintosh HD` and click `Erase` and click `Erase`
 1. Reinstall OS
-    1. Select `Reinstall macOS` on pannel `macOS Utilities`
+    1. Select `Reinstall macOS` on panel `macOS Utilities`
     1. Follow the one-way instruction
 
 ### MS Office
