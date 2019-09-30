@@ -1,0 +1,14 @@
+# POSIX gv(1) completion
+
+have gv && # if command is usable
+_gv()
+{
+    COMPREPLY=() # clear complete candidates
+    local cur # defile local variables
+    _get_comp_words_by_ref cur # get current completing string
+    _filedir "com" # add directories and xxx.com to the candidates
+    _filedir "gjf" # add directories and xxx.gfj to the candidates
+    #_filedir -d # add directories to the candidates
+} &&
+complete -F _gv gv # complete gv depend on _gv function
+
