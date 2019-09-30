@@ -3,7 +3,7 @@
 have gv && # if command is usable
 _gv()
 {
-    COMPREPLY=() # clear complete candidates
+    COMPREPLY=() # clear candidates of completion
     local cur # defile local variables
     _get_comp_words_by_ref cur # get current completing string
     _filedir "com" # add directories and xxx.com to the candidates
