@@ -13,7 +13,7 @@
 ```
 
 - Make self-completion
-
+See commented example in mac/bash_completion/
 
 ### Tex
 - Install
