@@ -46,8 +46,16 @@ See commented example in mac/bash_completion/
    :--- | :---:
 | Increase the font size | cmd sft > |
 | Decrease the font size | cmd sft < | 
-| Open the font window | cmd t      |
+| Open the font window   | cmd t     |
 
+- TIPS (Word)
+    - Figure on text
+        - Group
+        - Wrap Text - Fix Position on Page
+        - Write caption on Text Box
+
+### Numbers
+Convert to csv format throught excel file format.
 
 ## Partition
 ### Clean volume
