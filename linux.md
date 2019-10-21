@@ -1,3 +1,21 @@
+# Shell Command
+## GNU parallel
+Execute jobs in parallel easily.
+
+- Initialization
+```
+$ brew install parallel
+$ parallel --bibtex
+    type 'will cite'
+```
+- How to use
+```
+$ parallel echo ::: a b c
+a
+b
+c
+```
+
 # Service
 ## GitHub
 1. Initial setting
