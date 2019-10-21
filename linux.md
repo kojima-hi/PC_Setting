@@ -5,7 +5,7 @@ Execute jobs in parallel easily.
 - Initialization
 ```
 $ brew install parallel
-$ parallel --bibtex
+$ parallel --bibtex # to erase message
     type 'will cite'
 ```
 - How to use
