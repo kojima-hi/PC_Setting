@@ -1,10 +1,11 @@
 # Shell Command
 ## ssh-agent
+Agent who automatically deals with SSH public-key authentication follows you.
 
 - Launch
 ```
 Mac
-  none
+  running by default
 Linux
   $ eval `ssh-agent` 
 ```
