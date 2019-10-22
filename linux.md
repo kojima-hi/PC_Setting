@@ -1,4 +1,31 @@
 # Shell Command
+## ssh-agent
+
+- Launch
+```
+Mac
+  none
+Linux
+  $ eval `ssh-agent` 
+```
+
+- Registration
+```
+$ ssh-add id_rsa
+    Type its pass-phrase
+$ ssh-add -l # check registration
+```
+
+- Usage
+```
+$ ssh -A server # -A activate agent to follow you
+or
+$ vi ~/.ssh/config
+    add the following:
+        ForwardAgent yes
+$ ssh server
+```
+
 ## GNU parallel
 Execute jobs in parallel easily.
 
@@ -8,12 +35,13 @@ $ brew install parallel
 $ parallel --bibtex # to erase message
     type 'will cite'
 ```
-- How to use
+- Example
 ```
-$ parallel echo ::: a b c
-a
-b
-c
+$ parallel echo x {} y ::: 11 12 ::: 21 22
+x 11 21 y
+x 11 22 y
+x 12 21 y
+x 12 22 y
 ```
 
 # Service
