@@ -45,6 +45,9 @@ x 12 21 y
 x 12 22 y
 ```
 
+## Note
+- rsync doesn't distinguish uppercase and lowercase.
+
 # Service
 ## GitHub
 1. Initial setting
