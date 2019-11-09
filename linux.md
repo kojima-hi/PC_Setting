@@ -15,6 +15,7 @@ Linux
 $ ssh-add id_rsa
     Type its pass-phrase
 $ ssh-add -l # check registration
+$ ssh-add -d id_rsa # delete the key
 ```
 
 - Usage
