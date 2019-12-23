@@ -102,4 +102,6 @@ Cerate `/etc/wsl.conf` and write the following to it:
             C-b <arrow>
 ```
 
+## Warning
+`sh` may call dash instead of bash.
 
