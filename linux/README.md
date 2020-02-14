@@ -77,7 +77,7 @@ $ git clone git:user-name/repository-name
 ```
 If you get a repository through HTTP connection, user-name and password are required when you push revise to GitHub.
 
-### hub: extend git command
+### hub: extended git command
 ```
 $ brew install hub      # install
 $ vi ~/.bash_profile    # alias git command as hub command
