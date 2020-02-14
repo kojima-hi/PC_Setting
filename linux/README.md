@@ -73,13 +73,28 @@ Host github git
 
 2. Get repository from GitHub
 ```
-    $ git clone git:user-name/repository-name
+$ git clone git:user-name/repository-name
 ```
 If you get a repository through HTTP connection, user-name and password are required when you push revise to GitHub.
 
+### hub: extend git command
+```
+$ brew install hub      # install
+$ vi ~/.bash_profile    # alias git command as hub command
+    add the following:
+        eval "$(hub alias -s)"
+```
+
+example
+```
+Create a repository on GitHub by command line.
+$ git init
+$ git create "test"
+```
+
 ## Python
 ```
-    # AutoPyGui
-    $ sudo apt install python3 scrot python3-tk python3-dev
-    $ pip3 install python3-xlib Image pillow pyscreeze PyTweening opencv_python pyautogui
+AutoPyGui
+$ sudo apt install python3 scrot python3-tk python3-dev
+$ pip3 install python3-xlib Image pillow pyscreeze PyTweening opencv_python pyautogui
 ```
