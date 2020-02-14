@@ -2,7 +2,7 @@
 
 ## Network
 ### Wi-Fi trouble
-- Delete old setting files
+- When connect to router but not connect to internet  
     Backup and delete com.apple.airport.preferences.plist, com.apple.network.identification.plist, com.apple.wifi.message-tracer.plist, NetworkInterfaces.plist, and preferences.plist in `/Library/Preferences/SystemConfiguration/`
 (ref https://www.fonepaw.jp/tutorials/fix-mac-internet-wifi-error.html)
 
