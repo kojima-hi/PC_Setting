@@ -89,7 +89,7 @@ example
 ```
 Create a repository on GitHub with command line.
 $ git init
-$ git create "test"
+$ git create "test" # you can use this command by hub
 ```
 
 ## Python
