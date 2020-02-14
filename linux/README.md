@@ -12,10 +12,19 @@ Linux
 
 - Registration
 ```
-$ ssh-add id_rsa
+$ ssh-add id_rsa    # add the key temporary
+$ ssh-add -K id_rsa # On macOS, add the key to Keychain
     Type its pass-phrase
 $ ssh-add -l # check registration
 $ ssh-add -d id_rsa # delete the key
+```
+
+Use macOS Keychain for ssh-add to use registered keys in Keychain.
+```
+$ vi ~/.ssh/config
+    add the following:
+          UseKeychain yes
+          AddKeysToAgent yes
 ```
 
 - Usage
