@@ -29,7 +29,11 @@ $ vi ~/.ssh/config
 
 - Usage
 ```
-$ ssh -A server # -A activate agent to follow you
+SSH without paraphrase
+$ ssh server
+
+Activate ssh-agent to follow you
+$ ssh -A server
 or
 $ vi ~/.ssh/config
     add the following:
