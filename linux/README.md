@@ -87,7 +87,7 @@ $ vi ~/.bash_profile    # alias git command as hub command
 
 example
 ```
-Create a repository on GitHub by command line.
+Create a repository on GitHub with command line.
 $ git init
 $ git create "test"
 ```
