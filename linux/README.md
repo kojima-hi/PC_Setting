@@ -1,3 +1,19 @@
+# Programs
+## Bash-completion
+- Install
+```
+    $ brew install bash-completion
+    $ vi ~/.bash_profile
+        add the following:
+            if [ -f $(brew --prefix)/etc/bash_completion ]; then
+                . $(brew --prefix)/etc/bash_completion
+            fi
+```
+
+- Make self-completion
+
+See commented example in ./bash_completion/
+
 # Shell Command
 ## ssh-agent
 Agent who automatically deals with SSH public-key authentication follows you.

@@ -1,5 +1,10 @@
 # MAC
 
+## Time Machine
+- Use `TimeMachineEditor` app to control your backup schedule.
+- Backup data in a volume is also used when you re-select the volume.
+- Don't choose `New backup`.
+
 ## Network
 ### Wi-Fi trouble
 - When mac connects to router but does not connect to internet  
@@ -7,21 +12,6 @@
 (ref https://www.fonepaw.jp/tutorials/fix-mac-internet-wifi-error.html)
 
 ## Programs
-### Bash-completion
-- Install
-```
-    $ brew install bash-completion
-    $ vi ~/.bash_profile
-        add the following:
-            if [ -f $(brew --prefix)/etc/bash_completion ]; then
-                . $(brew --prefix)/etc/bash_completion
-            fi
-```
-
-- Make self-completion
-
-See commented example in mac/bash_completion/
-
 ### Tex
 - Install
 ```
