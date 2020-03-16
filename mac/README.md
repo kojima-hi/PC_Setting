@@ -10,6 +10,7 @@
 - When mac connects to router but does not connect to internet  
 1. Backup and delete com.apple.airport.preferences.plist, com.apple.network.identification.plist, com.apple.wifi.message-tracer.plist, NetworkInterfaces.plist, and preferences.plist in `/Library/Preferences/SystemConfiguration/`
 2. Relaunch
+
 (ref https://www.fonepaw.jp/tutorials/fix-mac-internet-wifi-error.html)
 
 ## Programs
