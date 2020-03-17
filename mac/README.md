@@ -1,9 +1,13 @@
 # MAC
 
 ## Time Machine
+### Ordinaly
 - Use `TimeMachineEditor` app to control your backup schedule.
 - Backup data in a volume is also used when you re-select the volume.
 - Don't choose `New backup`.
+
+### Encrypt
+- Before backup setting, format your disc with encrypted file system format.
 
 ## Network
 ### Wi-Fi trouble
