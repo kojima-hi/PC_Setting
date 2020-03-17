@@ -7,7 +7,7 @@
 - Don't choose `New backup`.
 
 ### Encrypt
-- Before backup setting, format your disc with encrypted file system format.
+- Before backup setting, format your disc with encrypted file system format by Disk Utility.
 
 ## Network
 ### Wi-Fi trouble
