@@ -17,7 +17,7 @@ $ hdiutil attach -nomount -noverify -noautofsck /Volumes/{name of your network s
 /dev/disk2            GUID_partition_scheme           
 /dev/disk2s1          EFI                             
 /dev/disk2s2          Apple_HFS 
-$ fsck_{file system name} -drfy /dev/disk2s2    # repair attach disc. usualy {file system name} = hfs
+$ fsck_{file system name} -drfy /dev/disk2s2    # repair attach disc. usualy {file system name}=hfs (Mac OS journaled)
 $ hdiutil detach /dev/disk2s2
 ```
 
