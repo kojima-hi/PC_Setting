@@ -10,6 +10,16 @@
 #### Encrypt
 - Before backup setting, format your disc with encrypted file system format by Disk Utility.
 
+#### Option
+```
+Speed up
+On
+$ sudo sysctl debug.lowpri_throttle_enabled=0
+Off
+$ sudo sysctl debug.lowpri_throttle_enabled=1
+```
+
+
 <!--
 ### In getting message "Time machine must create a new backup for you"
 ```
