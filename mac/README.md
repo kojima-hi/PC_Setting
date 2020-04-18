@@ -1,5 +1,9 @@
 # MAC
 
+## Tips
+### Free swap memory
+Restart the Mac.
+
 ## Basic settings
 ### Time Machine
 #### Ordinaly
