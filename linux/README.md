@@ -60,6 +60,9 @@ $ ssh server
 ## Note
 - rsync doesn't distinguish uppercase and lowercase.
 
+## TIPS
+- Suddenly unable to connect a server with encryption key... Check permission of home directory on the server. Scp from Windows Machine may change its permission.
+
 # Service
 ## GitHub
 1. Initial setting
@@ -109,8 +112,12 @@ $ git create "test" # you can use this command by hub
 ```
 
 ## Python
+Use anaconda
 ```
 AutoPyGui
 $ sudo apt install python3 scrot python3-tk python3-dev
 $ pip3 install python3-xlib Image pillow pyscreeze PyTweening opencv_python pyautogui
+
+Before use matplotlib
+$ conta install qt
 ```
