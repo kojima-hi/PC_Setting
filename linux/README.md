@@ -61,7 +61,7 @@ $ ssh server
 - rsync doesn't distinguish uppercase and lowercase.
 
 ## TIPS
-- Suddenly unable to connect a server with encryption key... Check permission of home directory on the server. Scp from Windows Machine may change its permission.
+- Suddenly unable to connect a server with encryption key... Check permission of home directory on the server. Scp from Windows Machine to the home directory can change its permission.
 
 # Service
 ## GitHub
