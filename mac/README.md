@@ -23,7 +23,6 @@ Off
 $ sudo sysctl debug.lowpri_throttle_enabled=1
 ```
 
-
 <!--
 ### In getting message "Time machine must create a new backup for you"
 ```
@@ -98,6 +97,12 @@ $ vi /Volumes/{name of your network share}/{name of}.sparsebundle/com.apple.Time
 
 ### Numbers
 Convert to csv format throught excel file format.
+
+### sshpass
+```
+brew install http://git.io/sshpass.rb
+sshpass -p passphrase ssh hostname -l username
+```
 
 ## Partition
 ### Clean volume

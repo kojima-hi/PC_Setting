@@ -2,6 +2,7 @@
 - AdBlock
 - Auto Copy
 - Blacklist
+- uBlacklist
 - Empty New Tab Page
 - QuicKey
 - Stylus
