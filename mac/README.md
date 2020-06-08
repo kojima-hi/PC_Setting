@@ -1,5 +1,10 @@
 # MAC
 
+## Device
+### HHKB
+#### On type mismatch in combination with Karabiner-Elements
+- Disable modifying events from HHKB: Open `Karabiner-Elements` preferences > `Devices` > `Basic configuration` > off `PFU xxx Keyboard`
+
 ## Tips
 ### Free swap memory
 Restart the Mac.
