@@ -2,7 +2,7 @@
 
 ## Device
 ### HHKB
-#### On type mismatch in combination with Karabiner-Elements
+#### On type mismatch (e.g. command button is pushed then backquote is printed) in combination with Karabiner-Elements
 - Disable modifying events from HHKB: Open `Karabiner-Elements` preferences > `Devices` > `Basic configuration` > off `PFU xxx Keyboard`
 
 ## Tips
