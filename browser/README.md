@@ -1,8 +1,8 @@
 # Extensions on Chromium (Chrome, Vivaldi)
 - AdBlock
 - Auto Copy
-- Blacklist
-- uBlacklist
+- Website Blocker
+- uBlacklist # black list in Google search
 - Empty New Tab Page
 - QuicKey
 - Stylus
