@@ -58,6 +58,12 @@ $ vi /Volumes/{name of your network share}/{name of}.sparsebundle/com.apple.Time
 
 (ref https://www.fonepaw.jp/tutorials/fix-mac-internet-wifi-error.html)
 
+### Calendar
+- Change default time length of schedule
+```
+    $ defaults write com.apple.iCal 'Default duration in minutes for new event' -int 10
+```
+
 ### Others
 - `Apple`-`About This Mac`-`Storage`-`Manage`-`Empty Trash Automatically`
 
