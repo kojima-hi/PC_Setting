@@ -57,6 +57,20 @@ $ vi ~/.ssh/config
 $ ssh server
 ```
 
+## When public key authentication doesn't work
+- See /var/log/secure if you can.
+- Check permission of files:
+```
+On guest server
+$ chmod 700 $HOME/.ssh
+$ chmod 600 $HOME/.ssh/id_rsa
+
+On host server
+$ chmod 755 $HOME
+$ chmod 700 $HOME/.ssh
+$ chmod 600 $HOME/.ssh/authorized_keys
+```
+
 ## Note
 - rsync doesn't distinguish uppercase and lowercase.
 
