@@ -25,7 +25,8 @@ Enable dark mode:
 (How to write script: https://sites.google.com/site/autohotkeyjp/reference/KeyList)
 
 ## Programs
-Visual Studio Code: Editor having dark background  
+- Visual Studio Code: Editor having dark background  
+- Beeftext: Snippet tool
 
 ## How to
 ### Screen shot of specific area
