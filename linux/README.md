@@ -110,7 +110,7 @@ $ git clone git:user-name/repository-name
 ```
 If you get a repository through HTTP connection, user-name and password are required when you push revise to GitHub.
 
-### hub: extended git command
+### hub: extend git command
 ```
 $ brew install hub      # install
 $ vi ~/.bash_profile    # alias git command as hub command
@@ -120,9 +120,9 @@ $ vi ~/.bash_profile    # alias git command as hub command
 
 example
 ```
-Create a repository on GitHub with command line.
+Create a private repository on GitHub using command line.
 $ git init
-$ git create "test" # you can use this command by hub
+$ git create -p "test" # you can use this command by hub
 ```
 
 ## Python
