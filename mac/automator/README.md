@@ -11,7 +11,7 @@
 
 ### Set shortcutkey
 1. Open `System Preferences - Keyboard - Shortcuts - Services`
-1. In `Text` list, you can find your script as service in name of xxx, set shortcut.
+1. In `General(or Text?)` list, you can find your script as service in name of xxx, set shortcut.
 1. Select `All controls` in the bottom section of the window.
 
 
