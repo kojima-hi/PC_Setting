@@ -28,28 +28,6 @@ Off
 $ sudo sysctl debug.lowpri_throttle_enabled=1
 ```
 
-<!--
-### In getting message "Time machine must create a new backup for you"
-```
-$ ll /Volumes/{name of your network share}
-$ sudo chflags -R nouchg /Volumes/{name of your network share}/{name of}.sparsebundle   # erase unchangable frag
-$ hdiutil attach -nomount -noverify -noautofsck /Volumes/{name of your network share}/{name of}.sparsebundle   # attach image without mount, verify, and repair
-/dev/diskN            GUID_partition_scheme           
-/dev/diskNsX          EFI                             
-/dev/diskNsY          Apple_HFS     # this is the target of repair
-$ fsck_hfs -drfy /dev/diskNsY       # repair attach disc. 
-$ hdiutil detach /dev/diskNsY
-$ vi /Volumes/{name of your network share}/{name of}.sparsebundle/com.apple.TimeMachine.MachineID.plist
-    delete successive two lines
-        <key>VerificationState</key>
-        <date>[date]</date>
-    replace from
-        <integer>2</integer>
-    to
-        <integer>0</integer>
-```
--->
-
 ### Network
 #### Wi-Fi trouble
 - When mac connects to router but does not connect to internet  
