@@ -1,6 +1,7 @@
 # Automator
 ## Find directory of workflow files
-`File - Open`
+`Automator - File - Open`
+
 
 ## Run shell script as service
 ### Make
@@ -14,4 +15,9 @@
 1. In `General(or Text?)` list, you can find your script as service in name of xxx, set shortcut.
 1. Select `All controls` in the bottom section of the window.
 
+
+## TIPS
+### Make Library visible
+1. Open /Users/"user" on Finder.
+1. Open `Finder - View - Show View Option` and click `Show Library Folder`
 
