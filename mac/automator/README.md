@@ -5,8 +5,9 @@
 
 ## Run shell script as service
 ### Make
-1. choose `Quick Action`
-1. choose `Library - Utilities - Run Shell Script`
+1. Choose `Quick Action`
+1. Choose `Library - Utilities - Run Shell Script`
+1. Turn off `Output replaces selected text` if output is none.
 1. Write the script
 1. Save as xxx
 
