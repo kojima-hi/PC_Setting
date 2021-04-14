@@ -71,6 +71,15 @@ $ chmod 700 $HOME/.ssh
 $ chmod 600 $HOME/.ssh/authorized_keys
 ```
 
+## In error
+- Xauth
+    - xauth:  timeout in locking authority file /home/xxx/.Xauthority
+```
+$ rm .Xauthority-*
+$ :> .Xauthority
+$ chmod 600 .Xauthority
+```
+
 ## Note
 - rsync doesn't distinguish uppercase and lowercase.
 
