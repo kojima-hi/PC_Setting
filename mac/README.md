@@ -1,5 +1,14 @@
 # MAC
 
+## Upgrade
+- Change font size on all directory in Finder
+```
+# edit font at 'View > Show View Options',
+# then do the follow on terminal.
+find . -name ".DS_Store" | xargs rm
+killall Finder
+```
+
 ## Device
 ### HHKB
 #### On type mismatch (e.g. command button is pushed then backquote is printed) in combination with Karabiner-Elements with Japanese array keyboard
