@@ -14,6 +14,9 @@ killall Finder
 export BASH_SILENCE_DEPRECATION_WARNING=1
 ```
 
+- Update `Xcode` and `Command Line Tools for Xcode`
+  - Don't update through AppStore, it's too slow. Download it from official web page. Find article about it on web.
+
 ## Device
 ### HHKB
 #### On type mismatch (e.g. command button is pushed then backquote is printed) in combination with Karabiner-Elements with Japanese array keyboard
