@@ -9,6 +9,11 @@ find . -name ".DS_Store" | xargs rm
 killall Finder
 ```
 
+- Hide shell warning on terminal launch
+```
+export BASH_SILENCE_DEPRECATION_WARNING=1
+```
+
 ## Device
 ### HHKB
 #### On type mismatch (e.g. command button is pushed then backquote is printed) in combination with Karabiner-Elements with Japanese array keyboard
