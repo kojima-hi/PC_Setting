@@ -20,6 +20,11 @@ export BASH_SILENCE_DEPRECATION_WARNING=1
 - Check well work of gcc and gfortran
   - Use files in ./example/
 
+- Clean storage usage of `System Data` (Time Machine is on) 
+```
+tmutil listlocalsnapshotdates / |grep 20|while read f; do tmutil deletelocalsnapshots $f; done
+```
+
 ## Device
 ### HHKB
 #### On type mismatch (e.g. command button is pushed then backquote is printed) in combination with Karabiner-Elements with Japanese array keyboard
