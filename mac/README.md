@@ -46,11 +46,11 @@ Restart the Mac.
 
 #### Option
 ```
-Speed up
-On
-$ sudo sysctl debug.lowpri_throttle_enabled=0
-Off
-$ sudo sysctl debug.lowpri_throttle_enabled=1
+# Speed up
+## On
+sudo sysctl debug.lowpri_throttle_enabled=0
+## Off
+sudo sysctl debug.lowpri_throttle_enabled=1
 ```
 
 ### Network
@@ -71,19 +71,32 @@ $ sudo sysctl debug.lowpri_throttle_enabled=1
 - `Apple`-`About This Mac`-`Storage`-`Manage`-`Empty Trash Automatically`
 
 ## Programs
+### Bash
+- Install new one
+```
+# update
+brew install bash
+sudo bash -c 'echo /usr/local/bin/bash >> /etc/shells'
+chsh -s /usr/local/bin/bash
+
+# check
+echo $BASH
+echo $BASH_VERSION
+```
+
 ### Tex
 - Install
 ```
-  $ brew cask reinstall mactex # contains TeX Live
-    # combination of brew management and independent installation of TeX Live may result in error.
+brew cask reinstall mactex # contains TeX Live
+# combination of brew management and independent installation of TeX Live may result in error.
 ```
 
 - Add packages
 ```
-  $ kpsewhich listing.sty # find directory containing a package
-  <sty_dir>/listing.sty
-  $ sudo cp jlisting.sty <sty_dir> # copy new package to where Tex references
-  $ sudo mktexlsr # reflects settings
+kpsewhich listing.sty # find directory containing a package
+# <sty_dir>/listing.sty
+sudo cp jlisting.sty <sty_dir> # copy new package to where Tex references
+sudo mktexlsr # reflects settings
 ```
 
 ### MS Office
