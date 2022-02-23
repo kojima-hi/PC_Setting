@@ -25,6 +25,15 @@ export BASH_SILENCE_DEPRECATION_WARNING=1
 tmutil listlocalsnapshotdates / |grep 20|while read f; do tmutil deletelocalsnapshots $f; done
 ```
 
+## Terminal
+### Use GNU command
+```
+brew install coreutils # include ghead, gtail, gecho
+brew install gawk gsed
+brew install gnu-time  # include gsleep
+brew install colordiff # colored diff
+```
+
 ## Device
 ### HHKB
 #### On type mismatch (e.g. command button is pushed then backquote is printed) in combination with Karabiner-Elements with Japanese array keyboard
