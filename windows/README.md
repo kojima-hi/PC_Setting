@@ -51,56 +51,67 @@ Get Ubuntu from Store, then installation is automatically started.
 ## Setup
 ### bashrc
 ```
-    # representation
-    PS1='\u@\h \W $ ' # shell prompt 
+# representation
+PS1='\u@\h \W $ ' # shell prompt 
 ```
 ### Basic
 #### Change home directory path on Windows
 You can use directory structure on Windows as `/mnt/<drive letter>/xxx`
 ```
-    $ sudo vi /etc/passwd
+$ sudo vi /etc/passwd
 
-    Change from
-        uname:x:1000:1000::/home/uname:/bin/bash
-    to
-        uname:x:1000:1000::/mnt/d/xxx:/bin/bash
+Change from
+    uname:x:1000:1000::/home/uname:/bin/bash
+to
+    uname:x:1000:1000::/mnt/d/xxx:/bin/bash
 ```
 
 #### To be permission switchable
 Cerate `/etc/wsl.conf` and write the following to it:
 ```
-    [automount]
-    enabled = true
-    options = "metadata"
-    mountFsTab = false
+[automount]
+enabled = true
+options = "metadata"
+mountFsTab = false
 ```
 
 ### Functions
+#### kill beep
+```
+$ vi ~/.inputrc
+add
+    set bell-style none
+```
 #### Update
 ```
-    $ sudo apt update
-    $ sudo apt upgrade
+$ sudo apt update
+$ sudo apt upgrade
 ```
 
 #### Programs
 ```
-    $ sudo apt install build-essential
-    $ sudo apt install software-properties-common python3-dev python3-pip python-pip
+$ sudo apt install build-essential
 
-    For Neovim
-    $ sudo add-apt-repository ppa:neovim-ppa/stable
-    $ sudo apt update
-    $ sudo apt-get install neovim
+get program from the official page because that by apt is too old
+$ wget https://github.com/neovim/neovim/releases/download/v0.6.1/nvim-linux64.tar.gz
+$ tar xvzf nvim-linux64.tar.gz
+$ mv nvim-linux64 ~/opt/
+$ cd ~/opt
+$ ln -sf nvim-linux64 nvim
+$ vi ~/.bash_profile
+add
+    alias vim="$HOME/opt/nvim/bin/nvim"
+    alias vi="$HOME/opt/nvim/bin/nvim"
 
-    $ sudo apt install tmux
-    Usage:
-        init
-            $ tmux
-        divide panel
-            C-b "
-            C-b %
-        move panel
-            C-b <arrow>
+$ sudo apt install tmux
+Usage:
+    init
+        $ tmux
+    divide panel
+        C-b "
+        C-b %
+    move panel
+        C-b <arrow>
 ```
 
 ## Warning
