@@ -1,7 +1,10 @@
-# What is this?
-Note about settings of Windows 10 and installation&setup of Ubuntu LTS 18.04 as subsystem of Windows 10.
-
 # Windows 10
+## for SSD
+- disable hybernation
+- disable virtual memory (paging file)
+- disable indexing
+
+# Windows 10, WSL
 ## Representation
 Enable dark mode:  
 `"Settings" > "Personalization" > "Color" > Choose "Dark" in "Choose your default app mode" section`
