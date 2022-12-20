@@ -1,3 +1,9 @@
+# Environment
+```
+# stop bash tab-completion escaping '$'
+shopt -s direxpand
+```
+
 # Programs
 ## Bash-completion
 - Install
