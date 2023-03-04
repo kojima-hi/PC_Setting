@@ -28,8 +28,10 @@ Agent who automatically deals with SSH public-key authentication follows you.
 ```
 Mac
   running by default
-Linux
-  $ eval `ssh-agent` 
+WSL2
+  $ sudo apt-get install keychain
+  $ /usr/bin/keychain -q --nogui $HOME/.ssh/id_rsa
+  $ source $HOME/.keychain/<host-name>-sh
 ```
 
 - Registration
