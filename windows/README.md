@@ -41,17 +41,15 @@ Setting file is shown by `echo $profile`
 
 # Ubuntu as subsystem of Windows 10
 ## Install
-### Activation
-Activate developer mode on Windows 10:   
-`"Start Button" > "Setting" > "Update & Security" > "For Developers" > check "Developer Mode"`
-
-Activate "Windows Subsystem for Linux":   
-`right click on "Starb Button" > "App & Func" > "Program & Func" > "activate or deactivate..." > check "Windows Subsystem for Linux"`
-
-### Get
-Get Ubuntu from Store, then installation is automatically started.
+xxx
 
 ## Setup
+### install basic tools
+```
+$ sudo apt-get install keychain
+$ sudo apt install -y curl
+```
+
 ### bashrc
 ```
 # representation
@@ -118,5 +116,5 @@ Usage:
 ```
 
 ## Warning
-`sh` may call dash instead of bash.
+`sh` call dash instead of bash.
 
