@@ -16,6 +16,10 @@ export BASH_SILENCE_DEPRECATION_WARNING=1
 
 - Update `Xcode` and `Command Line Tools for Xcode`
   - Don't update through AppStore, it's too slow. Download it from official web page. Find article about it on web.
+  - Install Xcoe Command Line Tool. They may be removed after MacOS upgrade.
+```
+xcode-select --install
+```
 
 - Check well work of gcc and gfortran
   - Use files in ./example/
