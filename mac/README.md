@@ -48,6 +48,21 @@ brew install colordiff # colored diff
 Restart the Mac.
 
 ## Basic settings
+### QuickLook settings to open EPS file
+```
+cd /System/Library/QuickLook/
+mkdir /Users/<user_name>/Library/QuickLook/
+cp -r Illustrator.qlgenerator /Users/<user_name>/Library/QuickLook/
+cd /Users/kojima/Library/QuickLook/Illustrator.qlgenerator/Contents/
+vi Info.plist
+# add new line
+#   <string>com.adobe.encapsulated-postscript</string>
+# after the line where the next is written
+#   <string>com.adobe.illustrator.ai-image</string>
+
+# restart or sleep&launch Mac
+```
+
 ### Time Machine
 #### Ordinaly
 - Use `TimeMachineEditor` app to control your backup schedule.
